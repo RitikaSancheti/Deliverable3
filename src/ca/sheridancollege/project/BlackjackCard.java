@@ -21,6 +21,7 @@ public class BlackjackCard extends Card {
         this.value = value;
     }
 
+    //Getters for rank, suit and value
     public String getRank() {
         return rank;
     }
@@ -33,6 +34,7 @@ public class BlackjackCard extends Card {
         return value;
     }
     
+    //Overridden toString method
     @Override
     public String toString() {
         return rank + " of " + suit;
