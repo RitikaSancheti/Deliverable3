@@ -10,10 +10,13 @@ package ca.sheridancollege.project;
  * enough to be instantiated for any Card game. Students wishing to add to the code 
  * should remember to add themselves as a modifier.
  * @author dancye, 2018
+ * @modifier ritikasancheti, Dec 4, 2024
  */
 public abstract class Card 
 {
     //default modifier for child classes
+    
+    
     
     /**
      * Students should implement this method for their specific children classes 

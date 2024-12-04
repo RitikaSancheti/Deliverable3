@@ -8,6 +8,7 @@ package ca.sheridancollege.project;
 /**
  * A class that models each Player in the game. Players have an identifier, which should be unique.
  * @author dancye, 2018
+ * @modifier ritikasancheti, Dec 4, 2024
  */
 public abstract class Player 
 {
@@ -19,7 +20,7 @@ public abstract class Player
      */
     public Player(String name)
     {
-        playerID= name;
+        this.playerID= name;
     }
     
     /**
@@ -36,7 +37,7 @@ public abstract class Player
      */
     public void setPlayerID(String givenID) 
     {
-        playerID = givenID;
+        this.playerID = givenID;
     }
     
     /**
